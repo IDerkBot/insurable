@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ШАПКА */
+header{
+    width: 100%;
+}
+.logo{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.logo-title{
+    font-size: 60pt;
+    font-weight: bold;
+}
+.logo-desc{
+    font-size: 14pt;
+}
+/* МЕНЮ */
+.menu{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #49B165;
+    padding: 10px 0;
+    font-size: 12pt;
+    margin-bottom: 20px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu .active{
+    font-weight: bold;
+}
+/* КОНТЕНТ */
+.content{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 36pt;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block{
+    width: 350px;
+    background-color: #e7e7e7;
+    padding: 20px;
+    line-height: 140%;
+    font-size: 14px;
+    font-weight: 300;
+}
+.block-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #49B165;
+    text-transform: uppercase;
+}
+.block-text{
+    text-align: justify;
+}
+/* ПОДВАЛ */
+footer{
+    background-color: #49b165;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 13pt;
+    text-align: center;
+    margin-top: 20px;
+}
